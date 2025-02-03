@@ -1,11 +1,6 @@
 {
   "name": "challenge",
-  "image": "mcr.microsoft.com/dotnet/sdk:9.0",
-  "features": {
-    "ghcr.io/devcontainers/features/dotnet:9.0": {
-      "version": "9.0"
-    }
-  },
+  "image": "mcr.microsoft.com/dotnet/sdk:8.0",
   "postCreateCommand": "dotnet restore",
   "customizations": {
     "vscode": {
